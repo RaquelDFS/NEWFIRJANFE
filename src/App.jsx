@@ -1,7 +1,9 @@
+import AppRoutes from "./routes";
+
 function App() {
   return (
     <>
-      <h1>Clean</h1>
+      <AppRoutes />
     </>
   );
 }
