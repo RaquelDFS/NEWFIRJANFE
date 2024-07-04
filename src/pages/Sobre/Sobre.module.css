@@ -1,0 +1,73 @@
+.avatar {
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.bio p {
+    font-size: large;
+}
+
+.bio span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.bio strong {
+    margin-bottom: 1.5rem;
+    color: var(--secondary) !important;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.icones img {
+    height: 50px;
+}
+
+.textos h2,
+.textos p {
+    margin-bottom: 1rem;
+}
+
+@media(max-width:768px) {
+    .bio {
+        margin-top: 50px;
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+        padding-top: 50px;
+    }
+
+}
+
+@media(max-width:480px) {
+    .icones {
+        gap: .5rem;
+    }
+
+    .icones img {
+        height: 40px;
+    }
+}
